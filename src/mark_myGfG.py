@@ -47,7 +47,13 @@ def generate_markdown():
         md_lines.append(f"- {c}  ")
 
     content = "\n".join(md_lines)
-    file_path = filedialog.asksaveasfilename(defaultextension=".md", filetypes=[("Markdown files", "*.md")], initialfile=title.replace(" ", "_") + ".md")
+
+    file_path = filedialog.asksaveasfilename(
+        defaultextension=".md", 
+        filetypes=[("Markdown files", "*.md")], 
+        initialfile=title.strip().replace("\n", "").replace("\r", "").replace(" ", "_") + ".md"
+    )
+
     if file_path:
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(content)

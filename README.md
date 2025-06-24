@@ -16,7 +16,7 @@ A simple GUI-based tool to quickly generate clean Markdown (`.md`) files from [G
 
 ## 🖥️ Features
 
-- 📄 GUI interface to input:
+- 📱 GUI interface to input:
   - Problem Title
   - Problem Link
   - Difficulty
@@ -49,7 +49,7 @@ A simple GUI-based tool to quickly generate clean Markdown (`.md`) files from [G
 > ⚠️ No external dependencies required. This project uses only Python's built-in standard libraries.
 
 
-## 📄 Sample Markdown Code & Output
+## 🧮 Sample Markdown Code & Output
 
 ### 🟣🟠 Markdown Code :
 <p>
@@ -61,11 +61,12 @@ A simple GUI-based tool to quickly generate clean Markdown (`.md`) files from [G
   <img width="80%" src=./assets/md_output.png
 </p>
 
->❗Note : 
-> 1. In case of multiple examples, add a blank line after each example and each example should contain input, output and explanation in separate lines.
-> 2. Each constraint should start from a new line.
+>‼️Note : 
+> 1. Don't leave any spaces after problem name.
+> 2. In case of multiple examples, add a blank line after each example and each example should contain input, output and explanation in separate lines.
+> 3. Each constraint should start from a new line.
 
-## 🛣️ Roadmap
+## 🎯 Roadmap
 
 Planned features for future releases:
 
@@ -76,7 +77,7 @@ Planned features for future releases:
 * 🧩 **Chrome Extension** – One-click export from GeeksforGeeks pages.
 
 
-## 📄 License & Contributing
+## 📜 License & Contributing
 
 This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for full details. Feel free to fork this repo and submit a pull request. Future plans include:
 * CLI-only version
