@@ -1,6 +1,15 @@
-# 📑 MarkMyGfG
+# 📑 Mark_MyGfG
 
-A simple GUI-based tool to quickly generate clean Markdown (`.md`) files from [GeeksforGeeks](https://www.geeksforgeeks.org/) problem statements. Designed for personal use, GfG-Markdownizer makes it easy to document your DSA journey and maintain a GitHub-friendly problem archive — something that’s widely available for LeetCode but lacking for GfG.
+<p>
+  <img src="https://img.shields.io/badge/Language-Python-indigo.svg" />
+  <img src="https://img.shields.io/badge/GUI-Tkinter-brown.svg" />
+  <img src="https://img.shields.io/badge/Generate-Markdown-black.svg" />
+   <img src="https://img.shields.io/badge/Platform-Windows-skyblue.svg" />
+  <img src="https://img.shields.io/badge/BuildFor-GeekforGeeks-lightgreen.svg" />
+  <img src="https://img.shields.io/badge/License-MIT-bisque.svg" />
+</p>
+
+A simple GUI-based tool to quickly generate clean Markdown (`.md`) files from [GeeksforGeeks](https://www.geeksforgeeks.org/) problem statements. Designed for personal use, Mark_MyGfG makes it easy to document your DSA journey and maintain a GitHub-friendly problem archive — something that’s widely available for LeetCode but lacking for GfG.
 
 > ⚠️ This is an early version of the tool. Currently, manual input is required, but powerful automation features are in the roadmap.
 
@@ -24,76 +33,37 @@ A simple GUI-based tool to quickly generate clean Markdown (`.md`) files from [G
 
 ### ✅ Option 1: Run the Executable
 
-1. Download the `MarkMyGfG.exe` file
+1. Download the `Mark_MyGfG.exe` from `dist` folder
 2. Run the executable (`.exe`) file.
 3. Fill out the form with the copied problem details from GfG.
-4. Click `Save` – a Markdown file will be created in your desired directory.
+4. Click `Generate Markdown` – a Markdown file will be created in your desired directory.
 
 ### 🐍 Option 2: Run the Python Script
 
-1. Make sure you have **Python 3.10+** installed.
-2. Run the script:
+1. Make sure you have **Python 3.10+** installed
+2. Download the script, `mark_myGfG.py` from `src` folder
+3. Run the script:
    ```
-   python markmygfg.py
+   python mark_myGfG.py
    ```
 > ⚠️ No external dependencies required. This project uses only Python's built-in standard libraries.
 
 
-## 📄 Sample Markdown Output
+## 📄 Sample Markdown Code & Output
 
-~~~
-# [Rotate Array](https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1)
+### 🟣🟠 Markdown Code :
+<p>
+  <img width="80%" src=./assets/md_codeSnippet.png
+</p>
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange.svg)
+### 🟣🟠 Markdown Output :
+<p>
+  <img width="80%" src=./assets/md_output.png
+</p>
 
-_Generated on: 2025-06-24 00:00:00_
-
-## 📝 Problem Statement
-
-Given an array arr[]. Rotate the array to the left (counter-clockwise direction) by d steps, where d is a positive integer. Do the mentioned change in the array in place.
-
-Note: Consider the array as circular.
-
-## 📊 Examples
-
-### ✅ Example 1
-
-```
-Input: arr[] = [1, 2, 3, 4, 5], d = 2
-Output: [3, 4, 5, 1, 2]
-Explanation: when rotated by 2 elements, it becomes 3 4 5 1 2.
-```
-
-### ✅ Example 2
-
-```
-Input: arr[] = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20], d = 3
-Output: [8, 10, 12, 14, 16, 18, 20, 2, 4, 6]
-Explanation: when rotated by 3 elements, it becomes 8 10 12 14 16 18 20 2 4 6.
-```
-
-### ✅ Example 3
-
-```
-Input: arr[] = [7, 3, 9, 1], d = 9
-Output: [3, 9, 1, 7]
-Explanation: when we rotate 9 times, we'll get 3 9 1 7 as resultant array.
-```
-
-## 📌 Constraints
-
-- 1 <= arr.size(), d <= 105  
-- 0 <= arr[i] <= 105
-
-~~~
-
-## 💡 Why Use This?
-
-* No more manual formatting.
-* Makes it easy to document problems for revision or GitHub tracking.
-* Minimalist but extensible.
-* Ideal for students practicing DSA from GfG.
-
+>❗Note : 
+> 1. In case of multiple examples, add a blank line after each example and each example should contain input, output and explanation in separate lines.
+> 2. Each constraint should start from a new line.
 
 ## 🛣️ Roadmap
 
