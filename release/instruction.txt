@@ -1,0 +1,20 @@
+Simply run the executable file and copy paste information from the GfG problem page.
+
+⚠️ To Remember :
+• Don't leave any spaces after problem name.
+• In case of multiple examples, add a blank line after each example and each example should contain input, output and explanation in separate line.
+your input should look like this (example, without quotes) —
+
+"Input: arr[] = [1, 2, 3, 4, 5], d = 2
+Output: [3, 4, 5, 1, 2]
+Explanation: when rotated by 2 elements, it becomes 3 4 5 1 2.
+
+Input: arr[] = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20], d = 3
+Output: [8, 10, 12, 14, 16, 18, 20, 2, 4, 6]
+Explanation: when rotated by 3 elements, it becomes 8 10 12 14 16 18 20 2 4 6.
+
+Input: arr[] = [7, 3, 9, 1], d = 9
+Output: [3, 9, 1, 7]
+Explanation: when we rotate 9 times, we'll get 3 9 1 7 as resultant array."
+
+• Each constraints should start in a new line.
